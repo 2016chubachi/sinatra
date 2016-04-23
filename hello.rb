@@ -7,3 +7,7 @@ end
 get '/aiit' do
   "Hi, AIIT"
 end
+
+get '/okada' do
+  "Hi, okada"
+end
