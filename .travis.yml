@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: hNd+3SqhiFNrdyJPf/KJug4hrkBIaZQWoWMt58kgXQTFwt5C/HPuL+ccUxGxgRN+T8+DFsRhLzhv7sPR7IH60KFyb3vfTGaFw5gpBY2PHbwxUXh2rmLU1A3jbhaN4yD9jJtqs4pnbzVH5xY7245Fhx9JiXg5myLSjVrAeE73u2NSb32WWV20eOdZooKAvPhyMXilNpQMAx1XyFSUePFChOhC/FyysyUSZ5WscRYW9LLQFCwuukYjKfFWfmm92CIZJHfSHX9ou38BnUx/9N34g9ZuLcuwxcbTsLmSiQG5UcrrPqPqdOic30XP4HuaXsGclz1Yf2HKTpiDh1K6sr31nZoRja5Qqu3ztPqKpdUsaam6pGJvwDOOb76C5C/SW90syqq4kax/gt6tyC2tDlYEJcg/jhuAkJ0GJB6z2qHhzx7w3TQTTLLaiM4LK71wXIJQTXF9d3Pc4zA0ybbhxswzNBxrM+XXzbZYjwH+Gd4z1/ZFx4husdzmYRF/bdzGf+jj6shp8WlI0O5XnriaWeHeF0vMnVpd5C8tK9p0ss0psLbkUNDWbcI4OMVlimTV/nQG5q9trSwMozheX6tgmYS6qeta6JQ/LbbuyFziCJH5AxUlWyic8Da/Mr4Ow661E0VmhUvb3roYrTVyc2UywtP059Na5XaFWpqW7c42n/ovX+0=
+  app: quiet-earth-62151
+  on:
+    repo: 2016chubachi/sinatra
