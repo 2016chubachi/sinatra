@@ -9,5 +9,5 @@ get '/aiit' do
 end
 
 get '/okada' do
-  "Hi, AIIT"
+  "Hi, okada"
 end
